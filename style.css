@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 1.2em;
+    align-items: baseline;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.card{
+    height: 350px;
+}
+
+#card-result {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 12em;
+    border-radius: 1.2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#card-result h1{
+    text-align: center;
+    color:  hsl(241, 100%, 89%);
+}
+
+
+#card-summary {
+    background-color: white;
+    width: 15em;
+    border-radius: 1.2em;
+}
+
+#card-summary h1{
+    color: hsl(224, 30%, 27%);
+    margin-left: 30px;
+}
+
+
+#circle-result{
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    clip-path: circle(60px);
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.big-white{
+    font-size: 3em;
+    color:hsl(0, 0%, 100%);
+    margin: 5px;
+    font-weight:700;
+}
+
+.item-score{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+
+.item-score p{
+    margin: 10px;
+}
+
+#reaction-item{
+    border-radius: 3px;
+    background-color: #fff6f5;
+}
+
+#memory-item{
+    border-radius: 3px;
+    background-color: #fffbf2;
+}
+
+#verbal-item{
+    border-radius: 3px;
+    background-color: #f2fbfa;
+}
+
+#visual-item{
+    border-radius: 3px;
+    background-color: #f3f3fd;
+}
+
+#reaction-text{
+    color: hsl(0, 100%, 67%);
+}
+
+#memory-text{
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal-text{
+    color: hsl(166, 100%, 37%);
+}
+
+#visual-text{
+    color: hsl(234, 85%, 45%);
+}
+
+h1{
+    font-family: Outfit;
+    font-size: medium;
+    font-weight:500;
+}
+
+h2{
+    font-family: Outfit;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+p{
+    font-family: Outfit;
+    font-size: small;
+    font-weight:500;
+    text-align: center;
+    color:  hsl(241, 100%, 89%);
+}
+
+span{
+    color: hsl(224, 30%, 27%);
+}
+
+button{
+    border-radius: 50px;
+    font-family: Outfit;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    width: 75%;
+    padding: 15px;
+}
+
+button:hover {
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
